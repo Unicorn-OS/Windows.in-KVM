@@ -21,7 +21,7 @@ xml:
 ...
   <commandline xmlns="http://libvirt.org/schemas/domain/qemu/1.0">
     <arg value='-display'/>
-    <arg value='show-cursor=on'/>
+    <arg value='default,show-cursor=on'/>
   </commandline>
 </domain>
 ```
