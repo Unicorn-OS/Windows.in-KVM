@@ -6,6 +6,7 @@ sch: https://www.google.com/search?q=spice+guest+tools+QXL+show+mouse+cursor htt
 https://bugzilla.redhat.com/show_bug.cgi?id=985461
 
 # Solution: Windows 11
+https://bugzilla.redhat.com/show_bug.cgi?id=985461#c9
 >I had the same problem with a Windows 11 guest (but strangely not with another old Windows 10 guest).
 >
 >I solved it by running Qemu with this option:
@@ -13,7 +14,6 @@ https://bugzilla.redhat.com/show_bug.cgi?id=985461
 >    -display gtk,show-cursor=on # needed with qxl
 >```
 >Hope this helps...
-- https://bugzilla.redhat.com/show_bug.cgi?id=985461#c9
 
 
 # Almost: Solution
