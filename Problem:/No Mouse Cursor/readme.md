@@ -5,6 +5,17 @@ sch: https://www.google.com/search?q=spice+guest+tools+QXL+show+mouse+cursor htt
 # Bug:
 https://bugzilla.redhat.com/show_bug.cgi?id=985461
 
+# Solution: Windows 11
+>I had the same problem with a Windows 11 guest (but strangely not with another old Windows 10 guest).
+>
+>I solved it by running Qemu with this option:
+>```
+>    -display gtk,show-cursor=on # needed with qxl
+>```
+>Hope this helps...
+- https://bugzilla.redhat.com/show_bug.cgi?id=985461#c9
+
+
 # Almost: Solution
 ## [No mouse with remote spice and Nvidia?](https://www.reddit.com/r/VFIO/comments/qiyn8z/no_mouse_with_remote_spice_and_nvidia/)
 
