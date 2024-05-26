@@ -1,6 +1,7 @@
-sch: https://www.google.com/search?q=qxl+mouse+pointer+missing https://www.google.com/search?q=kvm+xml+show-cursor
+sch: https://www.google.com/search?q=qxl+mouse+cursor+missing https://www.google.com/search?q=qxl+mouse+pointer+missing https://www.google.com/search?q=kvm+xml+show-cursor
 
 # Discuss:
+- https://superuser.com/questions/1546702/qemu-no-visible-cursor-when-using-qxl-or-virtio
 - https://www.reddit.com/r/kvm/comments/16oiby0/qemukvm_to_always_show_guest_cursor/
 - https://superuser.com/questions/1828045/prevent-mouse-from-being-hidden-in-ubuntu-when-running-as-kvm-qemu-guest
 
