@@ -16,8 +16,8 @@ https://bugzilla.redhat.com/show_bug.cgi?id=985461#c9
 >Hope this helps...
 
 
-# Almost: Solution
-## [No mouse with remote spice and Nvidia?](https://www.reddit.com/r/VFIO/comments/qiyn8z/no_mouse_with_remote_spice_and_nvidia/)
+# Solution: Disable & ReEnable Graphics Driver
+[No mouse with remote spice and Nvidia?](https://www.reddit.com/r/VFIO/comments/qiyn8z/no_mouse_with_remote_spice_and_nvidia/)
 
 >SOLUTION
 >The Nvidia driver seems to load after the QXL / Spice driver on boot, which consumes your mouse. You need to disable and re-enable it.
